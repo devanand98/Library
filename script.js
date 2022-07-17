@@ -47,6 +47,8 @@ function addToTable(){
 
     if(document.getElementById('read').checked){
         readStatus = "Read";
+    } else {
+        readStatus = "Not read.";
     }
 
     if(!title || !author || !pages || !read ){
